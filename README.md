@@ -17,3 +17,6 @@ Implementations:
 - Lazy Initialization
 - Lazy Initialization with Thread Safety (Double-Checked Locking)
 - Initialization-on-Demand Holder Idiom (This gives you lazy initialization + thread safety without explicit synchronized or volatile - class initialization is thread-safe)
+
+### Simple Factory
+Factory encapsulates object creation so the client doesn't need to know which concrete class to instantiate.
