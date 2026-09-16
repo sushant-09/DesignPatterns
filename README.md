@@ -38,6 +38,8 @@ Constructs complex objects step-by-step, especially when they have multiple opti
 - Prototype creates new objects by copying an existing object, avoiding potentially expensive or complex initialization. 
 - When objects contain mutable nested objects, we need to consider shallow vs deep copying.
 
+## Behavioral Patterns
+
 ### Strategy
 
 Defines a family of interchangeable algorithms or behaviors and allows them to be selected or changed at runtime.
