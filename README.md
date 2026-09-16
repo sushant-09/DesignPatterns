@@ -8,8 +8,6 @@ Each pattern is implemented independently with a simple, runnable example for ex
 
 ### Singleton
 
-**Package:** `creational.singleton`
-
 Ensures a class has only one instance and provides a global access point to it.
 
 Implementations:

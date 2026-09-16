@@ -1,4 +1,4 @@
-package creational.AbstractFactory;
+package creational.abstractFactory;
 
 public class Main {
 

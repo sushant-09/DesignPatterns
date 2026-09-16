@@ -1,4 +1,4 @@
-package creational.AbstractFactory;
+package creational.abstractFactory;
 
 public class MacGUIFactory implements GUIFactory{
     @Override
