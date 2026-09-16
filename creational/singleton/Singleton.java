@@ -10,6 +10,6 @@ public class Singleton {
     }
 
     public void doTask(){
-        System.out.println("Task done");
+        System.out.println("Task done!");
     }
 }

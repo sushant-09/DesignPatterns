@@ -16,3 +16,4 @@ Implementations:
 - Eager Initialization
 - Lazy Initialization
 - Lazy Initialization with Thread Safety (Double-Checked Locking)
+- Initialization-on-Demand Holder Idiom (This gives you lazy initialization + thread safety without explicit synchronized or volatile - class initialization is thread-safe)

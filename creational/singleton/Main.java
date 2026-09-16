@@ -21,6 +21,11 @@ public class Main {
         singletonLazyThreadSafe2.doTask();
         System.out.println(singletonLazyThreadSafe1==singletonLazyThreadSafe2);
 
+        SingletonHolder singletonHolder1 = SingletonHolder.getInstance();
+        SingletonHolder singletonHolder2 = SingletonHolder.getInstance();
+        singletonHolder1.doTask();
+        singletonHolder2.doTask();
+        System.out.println(singletonHolder1==singletonHolder2);
 
     }
 }
