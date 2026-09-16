@@ -1,17 +1,17 @@
 package creational.singleton;
 
 public class SingletonLazy {
-    private static SingletonLazy SINGLETON = null;
+    private static SingletonLazy singleton = null;
 
     private SingletonLazy(){
 
     }
 
     public static SingletonLazy getInstance(){
-        if(SINGLETON==null){
-            SINGLETON = new SingletonLazy();
+        if(singleton ==null){
+            singleton = new SingletonLazy();
         }
-        return SINGLETON;
+        return singleton;
     }
 
     public void doTask(){
