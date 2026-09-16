@@ -15,4 +15,4 @@ Ensures a class has only one instance and provides a global access point to it.
 Implementations:
 - Eager Initialization
 - Lazy Initialization
-- Lazy Initialization with Thread Safety
+- Lazy Initialization with Thread Safety (Double-Checked Locking)

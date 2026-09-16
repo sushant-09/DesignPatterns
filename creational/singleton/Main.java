@@ -15,5 +15,12 @@ public class Main {
         singletonLazy2.doTask();
         System.out.println(singletonLazy1==singletonLazy2);
 
+        SingletonLazyThreadSafe singletonLazyThreadSafe1 = SingletonLazyThreadSafe.getInstance();
+        SingletonLazyThreadSafe singletonLazyThreadSafe2 = SingletonLazyThreadSafe.getInstance();
+        singletonLazyThreadSafe1.doTask();
+        singletonLazyThreadSafe2.doTask();
+        System.out.println(singletonLazyThreadSafe1==singletonLazyThreadSafe2);
+
+
     }
 }
