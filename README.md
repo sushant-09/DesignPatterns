@@ -26,3 +26,9 @@ Encapsulates object creation and reduces coupling between the client and concret
 - **Abstract Factory:** Creates families of related objects.
 
 **Key idea:** Depend on abstractions instead of concrete classes, keeping object creation separate from client logic.
+
+### Builder
+
+Constructs complex objects step-by-step, especially when they have multiple optional or configurable attributes.
+
+**Key idea:** Avoids telescoping constructors and makes object creation more readable through method chaining.
