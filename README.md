@@ -18,5 +18,13 @@ Implementations:
 - Lazy Initialization with Thread Safety (Double-Checked Locking)
 - Initialization-on-Demand Holder Idiom (This gives you lazy initialization + thread safety without explicit synchronized or volatile - class initialization is thread-safe)
 
-### Simple Factory
-Factory encapsulates object creation so the client doesn't need to know which concrete class to instantiate.
+
+### Factory
+
+Encapsulates object creation and reduces coupling between the client and concrete implementations.
+
+- **Simple Factory:** Centralizes object creation based on a type.
+- **Factory Method:** Delegates object creation to subclasses.
+- **Abstract Factory:** Creates families of related objects.
+
+**Key idea:** Depend on abstractions instead of concrete classes, keeping object creation separate from client logic.
