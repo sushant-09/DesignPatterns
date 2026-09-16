@@ -32,3 +32,8 @@ Encapsulates object creation and reduces coupling between the client and concret
 Constructs complex objects step-by-step, especially when they have multiple optional or configurable attributes.
 
 **Key idea:** Avoids telescoping constructors and makes object creation more readable through method chaining.
+
+### Prototype
+
+- Prototype creates new objects by copying an existing object, avoiding potentially expensive or complex initialization. 
+- When objects contain mutable nested objects, we need to consider shallow vs deep copying.
