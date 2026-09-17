@@ -63,3 +63,9 @@ Allows an object to change its behavior when its internal state changes.
 Passes a request through a chain of handlers, where each handler can process the request or forward it to the next handler.
 
 **Key idea:** Decouple the sender from the receiver by allowing multiple handlers to process a request without the sender knowing which handler will handle it.
+
+### Command
+
+Encapsulates a request as an object, allowing it to be parameterized, queued, logged, or executed independently of the receiver.
+
+**Key idea:** Decouple the invoker from the receiver by representing actions as command objects.
