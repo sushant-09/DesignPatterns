@@ -57,3 +57,9 @@ Defines a one-to-many relationship where changes in a subject automatically noti
 Allows an object to change its behavior when its internal state changes.
 
 **Key idea:** Encapsulate state-specific behavior into separate classes, avoiding complex conditional logic and allowing state transitions at runtime.
+
+### Chain of Responsibility
+
+Passes a request through a chain of handlers, where each handler can process the request or forward it to the next handler.
+
+**Key idea:** Decouple the sender from the receiver by allowing multiple handlers to process a request without the sender knowing which handler will handle it.
