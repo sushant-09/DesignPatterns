@@ -45,3 +45,9 @@ Constructs complex objects step-by-step, especially when they have multiple opti
 Defines a family of interchangeable algorithms or behaviors and allows them to be selected or changed at runtime.
 
 **Key idea:** Encapsulate behavior behind an interface, allowing the behavior to change without modifying the context.
+
+### Observer
+
+Defines a one-to-many relationship where changes in a subject automatically notify its registered observers.
+
+**Key idea:** Decouple the subject from its observers using a common interface. Supports push and pull notification models.
