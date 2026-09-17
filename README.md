@@ -51,3 +51,9 @@ Defines a family of interchangeable algorithms or behaviors and allows them to b
 Defines a one-to-many relationship where changes in a subject automatically notify its registered observers.
 
 **Key idea:** Decouple the subject from its observers using a common interface. Supports push and pull notification models.
+
+### State
+
+Allows an object to change its behavior when its internal state changes.
+
+**Key idea:** Encapsulate state-specific behavior into separate classes, avoiding complex conditional logic and allowing state transitions at runtime.
