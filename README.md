@@ -69,3 +69,9 @@ Passes a request through a chain of handlers, where each handler can process the
 Encapsulates a request as an object, allowing it to be parameterized, queued, logged, or executed independently of the receiver.
 
 **Key idea:** Decouple the invoker from the receiver by representing actions as command objects.
+
+### Decorator
+
+Adds responsibilities or behavior to an object dynamically by wrapping it with decorator objects.
+
+**Key idea:** Use composition and wrapping to extend behavior without modifying the original class.
